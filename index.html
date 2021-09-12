@@ -18,9 +18,7 @@
 
 	<body>
 		<main>
-			<h1 class="offscreen">Search Me A Wikipedia Powered Search Engine</h1>
 			<section class="searchEntry">
-				<h2 class="offscreen">Search Term Entry</h2>
 				<div class="logo" aria-hidden="true">
 					<span class="blue">S</span>
 					<span class="red">e</span>
@@ -32,8 +30,7 @@
 					<span class="yellow">e</span>
 					<span class="red exclaim">!</span>
 				</div>
-				<form style="padding: 10px;" id="searchBar" class="searchBar" role="search">
-					<label class="offscreen" for="search">Enter a search term or phrase</label>
+				<form style="padding: 1px;" id="searchBar" class="searchBar" role="search">
 					<input id="search" type="text" autocomplete="off" role="searchbox" />
 					<div id="clear" class="none button clear" role="button" tabindex="0" aria-label="Clear search terms">
 						<i class="fas fa-times"></i>
@@ -44,14 +41,15 @@
 				</form>
 			</section>
 			<section class="results">
-				<h2 class="offscreen">Search Results</h2>
+				<h2 class="msg hide">Search Results</h2>
 				<div class="statsBar">
 					<div id="stats" class="stats" aria-live="assertive"></div>
 				</div>
 				<div id="searchResults" class="searchResults">
 					<!-- search result -->
 					<div class="resultItem">
-						<div class="resultTitle">
+
+						<!-- <div class="resultTitle">
 							<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Pomeranian.JPG/50px-Pomeranian.JPG"
 								alt="Pomeranian dog">
 							<a href="https://en.wikipedia.org/?curid=170595" target="_blank">Pomeranian dog</a>
@@ -62,7 +60,8 @@
 									that
 									is named for the Pomerania...</p>
 							</div>
-						</div>
+						</div> -->
+
 					</div>
 				</div>
 			</section>
